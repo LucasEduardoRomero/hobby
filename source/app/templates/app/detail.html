@@ -1,0 +1,5 @@
+<h1>{{ question.question_text }}</h1>
+<ul>
+    <li><a href="{% url 'app:detail' question.id %}">{{ question.question_text }}</a></li>
+    <li>{{ choice.choice_text }}</li>
+</ul>
