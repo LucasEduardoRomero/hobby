@@ -1,3 +1,4 @@
+from app import views
 """todoproj URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -19,4 +20,5 @@ from django.urls import include, path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('app/', include('app.urls')),
+    path('', views.indexPrincipal, name='indexPrincipal')
 ]
