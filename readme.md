@@ -11,4 +11,5 @@ This is the Hobby repository, a blog about how good is to have a hobby.
 
 ### Obs
 
-This is in a alfabetaomega-pré-version
+- user: lucas
+- senha: kappa
